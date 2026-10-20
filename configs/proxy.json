@@ -1,0 +1,16 @@
+{
+  "listen": "127.0.0.1:8080",
+  "admin": "127.0.0.1:8081",
+  "backends": ["http://127.0.0.1:9001", "http://127.0.0.1:9002", "http://127.0.0.1:9003"],
+  "policy": "peak-ewma",
+  "global_limit": 128,
+  "backend_limit": 32,
+  "connection_limit": 256,
+  "max_request_bytes": 65536,
+  "max_response_bytes": 1048576,
+  "request_timeout_ms": 1000,
+  "cold_ms": 50,
+  "decay_ms": 10000,
+  "failure_penalty_ms": 1000,
+  "seed": 1
+}

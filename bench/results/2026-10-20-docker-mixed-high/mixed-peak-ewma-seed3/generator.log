@@ -1,0 +1,52 @@
+{
+  "start_at": "2026-10-20T04:04:20.9309Z",
+  "offered": 8400,
+  "outcomes": {
+    "success": 8400,
+    "http_error": 0,
+    "transport_error": 0,
+    "client_timeout": 0,
+    "proxy_timeout": 0,
+    "proxy_rejection": 0,
+    "generator_miss": 0
+  },
+  "duration_seconds": 12,
+  "drain_seconds": 0.067602334,
+  "throughput": 700,
+  "success_latency_ms": {
+    "p50": 11.172763363777177,
+    "p95": 73.99828462120728,
+    "p99": 87.63649657519605
+  },
+  "all_latency_ms": {
+    "p50": 11.172763363777177,
+    "p95": 73.99828462120728,
+    "p99": 87.63649657519605
+  },
+  "scheduled_latency_ms": {
+    "p50": 12.098501811718545,
+    "p95": 74.73826747741941,
+    "p99": 88.51286155094806
+  },
+  "success_latency_count": 8400,
+  "all_latency_count": 8400,
+  "scheduled_latency_count": 8400,
+  "seed": 3,
+  "rate": 700,
+  "workers": 256,
+  "timeout": "2s",
+  "runtime_version": "go1.26.1",
+  "histogram_precision": "upper bucket boundary; \u003c=1% relative error + 1ns",
+  "warmup": {
+    "offered": 700,
+    "outcomes": {
+      "success": 700,
+      "http_error": 0,
+      "transport_error": 0,
+      "client_timeout": 0,
+      "proxy_timeout": 0,
+      "proxy_rejection": 0,
+      "generator_miss": 0
+    }
+  }
+}

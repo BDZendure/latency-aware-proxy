@@ -1,0 +1,3 @@
+# Preserve benchmark artifact bytes so archived SHA-256 manifests remain valid.
+/bench/results/** -text
+/bench/results/**/*.csv whitespace=cr-at-eol

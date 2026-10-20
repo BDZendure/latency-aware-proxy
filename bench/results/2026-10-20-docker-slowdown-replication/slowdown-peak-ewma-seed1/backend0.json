@@ -1,0 +1,17 @@
+{
+  "capacity": 4,
+  "heavy_multiplier": 10,
+  "jitter_ms": 1,
+  "mode": "sleep",
+  "phases": [
+    {
+      "end_seconds": 8.2,
+      "multiplier": 15,
+      "start_seconds": 4.0
+    }
+  ],
+  "queue": 64,
+  "response_bytes": 128,
+  "seed": 1,
+  "service_ms": 8
+}

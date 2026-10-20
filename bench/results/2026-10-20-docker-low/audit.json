@@ -1,0 +1,709 @@
+{
+  "trial_count": 30,
+  "image_ids": [
+    "sha256:d6c4ca0b5e685913eafed8e3fb0032c989293e041dd95a1912fe2b6bbec00263"
+  ],
+  "offered_measurement": 86400,
+  "offered_warmup": 8700,
+  "outcomes_total": {
+    "success": 86400,
+    "http_error": 0,
+    "transport_error": 0,
+    "client_timeout": 0,
+    "proxy_timeout": 0,
+    "proxy_rejection": 0,
+    "generator_miss": 0
+  },
+  "trials": [
+    {
+      "trial": "heterogeneous-least-outstanding-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 5,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1751,
+        876,
+        523
+      ]
+    },
+    {
+      "trial": "heterogeneous-least-outstanding-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1739,
+        874,
+        537
+      ]
+    },
+    {
+      "trial": "heterogeneous-peak-ewma-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 5,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1761,
+        924,
+        465
+      ]
+    },
+    {
+      "trial": "heterogeneous-peak-ewma-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1776,
+        907,
+        467
+      ]
+    },
+    {
+      "trial": "heterogeneous-round-robin-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1050,
+        1050,
+        1050
+      ]
+    },
+    {
+      "trial": "heterogeneous-round-robin-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 4,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1050,
+        1050,
+        1050
+      ]
+    },
+    {
+      "trial": "mixed-least-outstanding-seed1",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        573,
+        625,
+        602
+      ]
+    },
+    {
+      "trial": "mixed-least-outstanding-seed2",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        594,
+        645,
+        561
+      ]
+    },
+    {
+      "trial": "mixed-peak-ewma-seed1",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        621,
+        566,
+        613
+      ]
+    },
+    {
+      "trial": "mixed-peak-ewma-seed2",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        582,
+        591,
+        627
+      ]
+    },
+    {
+      "trial": "mixed-round-robin-seed1",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "trial": "mixed-round-robin-seed2",
+      "offered": 1600,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 1600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "trial": "slowdown-least-outstanding-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        762,
+        1195,
+        1193
+      ]
+    },
+    {
+      "trial": "slowdown-least-outstanding-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 6,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        761,
+        1192,
+        1197
+      ]
+    },
+    {
+      "trial": "slowdown-peak-ewma-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 3,
+      "sampled_max_active": 5,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        340,
+        1413,
+        1397
+      ]
+    },
+    {
+      "trial": "slowdown-peak-ewma-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 4,
+      "sampled_max_active": 7,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        368,
+        1387,
+        1395
+      ]
+    },
+    {
+      "trial": "slowdown-round-robin-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 32,
+      "sampled_max_active": 36,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        768,
+        1191,
+        1191
+      ]
+    },
+    {
+      "trial": "slowdown-round-robin-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 32,
+      "sampled_max_active": 36,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        778,
+        1186,
+        1186
+      ]
+    },
+    {
+      "trial": "spike-least-outstanding-seed1",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 13,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1530,
+        1528,
+        1542
+      ]
+    },
+    {
+      "trial": "spike-least-outstanding-seed2",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 12,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1523,
+        1532,
+        1545
+      ]
+    },
+    {
+      "trial": "spike-peak-ewma-seed1",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 14,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1520,
+        1506,
+        1574
+      ]
+    },
+    {
+      "trial": "spike-peak-ewma-seed2",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 12,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1551,
+        1545,
+        1504
+      ]
+    },
+    {
+      "trial": "spike-round-robin-seed1",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 12,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1534,
+        1533,
+        1533
+      ]
+    },
+    {
+      "trial": "spike-round-robin-seed2",
+      "offered": 4400,
+      "warmup_offered": 200,
+      "outcomes": {
+        "success": 4400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 5,
+      "sampled_max_active": 12,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1534,
+        1533,
+        1533
+      ]
+    },
+    {
+      "trial": "steady-least-outstanding-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 4,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1061,
+        1040,
+        1049
+      ]
+    },
+    {
+      "trial": "steady-least-outstanding-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 5,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1043,
+        1055,
+        1052
+      ]
+    },
+    {
+      "trial": "steady-peak-ewma-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 4,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        983,
+        1119,
+        1048
+      ]
+    },
+    {
+      "trial": "steady-peak-ewma-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 4,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1004,
+        1073,
+        1073
+      ]
+    },
+    {
+      "trial": "steady-round-robin-seed1",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 5,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1050,
+        1050,
+        1050
+      ]
+    },
+    {
+      "trial": "steady-round-robin-seed2",
+      "offered": 2800,
+      "warmup_offered": 350,
+      "outcomes": {
+        "success": 2800,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 2,
+      "sampled_max_active": 4,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        1050,
+        1050,
+        1050
+      ]
+    }
+  ]
+}

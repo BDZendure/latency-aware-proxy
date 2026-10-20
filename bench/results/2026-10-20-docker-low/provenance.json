@@ -1,0 +1,80 @@
+{
+  "arguments": {
+    "cpus": 2,
+    "docker": true,
+    "docker_api_version": "1.54",
+    "docker_endpoint": "unix:///Users/blakezhang/.docker/run/docker.sock",
+    "duration": 8.0,
+    "image": "sha256:d6c4ca0b5e685913eafed8e3fb0032c989293e041dd95a1912fe2b6bbec00263",
+    "memory": "256m",
+    "output": "/Users/blakezhang/Documents/Dev/latency-aware-proxy/bench/results/2026-10-20-docker-low",
+    "policies": [
+      "round-robin",
+      "least-outstanding",
+      "peak-ewma"
+    ],
+    "rate_scale": 0.5,
+    "repetitions": 2,
+    "requested_image": "latencyproxy:bench",
+    "scenarios": [
+      "steady",
+      "slowdown",
+      "heterogeneous",
+      "mixed",
+      "spike"
+    ],
+    "startup_delay": 3.0,
+    "warmup": 1.0
+  },
+  "binary_note": "local binaries are unused in Docker trials; each trial pins the actual Linux image ID",
+  "cpu_count": 11,
+  "docker": true,
+  "docker_info": {
+    "architecture": "aarch64",
+    "cgroup_version": "2",
+    "cpus": 11,
+    "memory_bytes": 8321568768,
+    "os": "linux",
+    "server_version": "29.5.2"
+  },
+  "git_revision": "95ca2867df627206d5d0fc97c4ba776c5831880f",
+  "git_status": "?? .dockerignore\n?? .gitignore\n?? Dockerfile\n?? Makefile\n?? README.md\n?? bench/\n?? cmd/\n?? configs/\n?? docs/\n?? go.mod\n?? internal/",
+  "go_version": "go version go1.26.1 darwin/arm64",
+  "local_binary_sha256": {
+    "backend": "ccc5d4e437fdcd3e8e35f687304811c782836d1b5f9449706ff69800a9afb477",
+    "loadgen": "ebe8fb67bf1a9b6b7c06518dbd04bb35ceefaa22bdee009eb634948f01546f82",
+    "proxy": "b932f2169510acd1959805ba0b504efb44d49cf6e8bd757fb8e11bd7a923503e"
+  },
+  "machine": "arm64",
+  "platform": "macOS-26.6.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6",
+  "runner_sha256": "388cfd89297794aea3ca520bc6dd9a2604adc041b3a5c740826bd8708a86f8db",
+  "source_sha256": {
+    "cmd/backend/main.go": "e9c5c7e14a18e3f721992f2bd59cd56bb0eeddeae4b076a45e1aec89728e11f0",
+    "cmd/backend/main_test.go": "537111afe6115843ff26f4d36b4bec559d691bf3533c84e66e2f07dc0c371a05",
+    "cmd/loadgen/main.go": "923754796cc6f4806a794a3ca9ad575bfd97397791574e0e1baf814a715bcc81",
+    "cmd/loadgen/main_test.go": "5b45e3673c00daa0ea2fba10d3df955d6e61b5a13ac3c22568365fbcd1c9a995",
+    "cmd/proxy/main.go": "294e2bbc6dd335a6823a8a7952452d560f52620af8adf5dfbc6735743ba369cc",
+    "internal/balancer/balancer.go": "986422984298361453dff9818e6841d327344973b17e726e5b18219270de927c",
+    "internal/balancer/balancer_test.go": "d1c3dfed0f04de5eeb9f1883cdcce6bce68ad379e94d2b5434e35a6e8aa01010",
+    "internal/balancer/ewma.go": "c88d64448995f5103cea93233ec85738b8f17a0be85163426f49008c2b911a92",
+    "internal/hist/hist.go": "1112f1eb94bcfbb6133f2dd3493d77058c756be71acb621c32972efabb895941",
+    "internal/hist/hist_test.go": "3beadabfe76572cba239710d71896d8e00153d402f744d711826041f2ab930df",
+    "internal/loadgen/loadgen.go": "1e55123dc247f0416bbb945f887ccb42db8ce8405202e803e7800181dfecea36",
+    "internal/loadgen/loadgen_test.go": "6385053a38c0106b57241c8bb2375fc9757fd02c4a3d58878009ad376738574a",
+    "internal/proxy/buffer.go": "ad3380c23ee6cf28bba3dc5dda24de809260f3a1e9afa6ab41e3f1b85b2ce385",
+    "internal/proxy/config.go": "e8f02e045a63eb41e5e6e66354ddc0fccce7d72aacaac3b42b4dd508f7c63a60",
+    "internal/proxy/health.go": "042cadd241edfc4a8e5eb03cf67794fa28b37c080923d100056de5ac5d934f0d",
+    "internal/proxy/health_test.go": "2f22c3237ae84f4c02b5e34aedeb0d213c04b4d7bba44fc2805a0fdf93e1dedb",
+    "internal/proxy/http_boundary_test.go": "bc05ac02dad37757c507eab454a2d73e6f048040514848957e65fee5257d4938",
+    "internal/proxy/listener.go": "8f18c1dcac39a663ac25464eeb6a460dfbdd57dd25f193a6efcaf9e551c00c54",
+    "internal/proxy/proxy.go": "75470e3826fc3c157718245d1d0e49eb61412623845255aa8a3ca0455de8f99f",
+    "internal/proxy/proxy_test.go": "119e8e0f86de0b90c4a72f277dd970c3c8ce38088c0328fb4842edf3ae269753",
+    "internal/proxy/server.go": "505e4241809553b49d639edd33e9fde1b948c872eb56c79daf4478beaadd6465",
+    "internal/proxy/server_test.go": "125b9ed74fc5185abf2dc28ddfdb56c363ddbca3a3ede7509a7fe294c677c057",
+    "internal/proxy/transport.go": "2de205a9b160b1c938339350eaefef2c6745524779ae3d0f47729362fd450856",
+    "internal/sim/sim.go": "2df7dd08ba71fffd35722ba21be817ac49f7af85c6b1024da4dfc666f8370541",
+    "internal/sim/sim_test.go": "55dd134b43e5ea83eb20082cea944bbad51f99f309203a9c5ff230888159cdde"
+  },
+  "started_utc": "2026-10-20T03:55:38.444882+00:00"
+}

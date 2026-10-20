@@ -1,0 +1,40 @@
+{
+  "active": 0,
+  "backends": [
+    {
+      "address": "http://backend0:9001",
+      "canceled": 0,
+      "completed": 1714,
+      "estimate_ns": 72843073.31516135,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 1714
+    },
+    {
+      "address": "http://backend1:9001",
+      "canceled": 0,
+      "completed": 1743,
+      "estimate_ns": 72281389.66715378,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 1743
+    },
+    {
+      "address": "http://backend2:9001",
+      "canceled": 0,
+      "completed": 1743,
+      "estimate_ns": 73826665.1342338,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 1743
+    }
+  ],
+  "counters": {
+    "received": 5200,
+    "success": 5200
+  },
+  "policy": "peak-ewma"
+}

@@ -1,0 +1,8 @@
+ok  	latencyproxy/cmd/backend	1.013s
+ok  	latencyproxy/cmd/loadgen	1.182s
+?   	latencyproxy/cmd/proxy	[no test files]
+ok  	latencyproxy/internal/balancer	1.010s
+ok  	latencyproxy/internal/hist	1.004s
+ok  	latencyproxy/internal/loadgen	1.913s
+ok  	latencyproxy/internal/proxy	1.436s
+ok  	latencyproxy/internal/sim	1.020s
