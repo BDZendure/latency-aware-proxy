@@ -1,0 +1,27 @@
+test -z "$(gofmt -l cmd internal)"
+go vet ./...
+/Applications/Xcode.app/Contents/Developer/usr/bin/make test race
+go test ./...
+ok  	latencyproxy/cmd/backend	0.603s
+ok  	latencyproxy/cmd/loadgen	1.789s
+?   	latencyproxy/cmd/proxy	[no test files]
+ok  	latencyproxy/internal/balancer	1.022s
+ok  	latencyproxy/internal/hist	1.211s
+ok  	latencyproxy/internal/loadgen	1.708s
+ok  	latencyproxy/internal/proxy	0.775s
+ok  	latencyproxy/internal/sim	1.444s
+python3 -m unittest discover -s bench -p 'test_*.py'
+................
+----------------------------------------------------------------------
+Ran 16 tests in 0.015s
+
+OK
+go test -race ./...
+ok  	latencyproxy/cmd/backend	(cached)
+ok  	latencyproxy/cmd/loadgen	(cached)
+?   	latencyproxy/cmd/proxy	[no test files]
+ok  	latencyproxy/internal/balancer	(cached)
+ok  	latencyproxy/internal/hist	(cached)
+ok  	latencyproxy/internal/loadgen	(cached)
+ok  	latencyproxy/internal/proxy	1.787s
+ok  	latencyproxy/internal/sim	(cached)

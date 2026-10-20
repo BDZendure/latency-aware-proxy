@@ -1,0 +1,226 @@
+{
+  "trial_count": 9,
+  "image_ids": [
+    "sha256:d6c4ca0b5e685913eafed8e3fb0032c989293e041dd95a1912fe2b6bbec00263"
+  ],
+  "offered_measurement": 75600,
+  "offered_warmup": 6300,
+  "outcomes_total": {
+    "success": 75600,
+    "http_error": 0,
+    "transport_error": 0,
+    "client_timeout": 0,
+    "proxy_timeout": 0,
+    "proxy_rejection": 0,
+    "generator_miss": 0
+  },
+  "trials": [
+    {
+      "trial": "mixed-least-outstanding-seed1",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 10,
+      "sampled_max_active": 29,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3041,
+        2995,
+        3064
+      ]
+    },
+    {
+      "trial": "mixed-least-outstanding-seed2",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 11,
+      "sampled_max_active": 33,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        2982,
+        3065,
+        3053
+      ]
+    },
+    {
+      "trial": "mixed-least-outstanding-seed3",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 9,
+      "sampled_max_active": 26,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3027,
+        3014,
+        3059
+      ]
+    },
+    {
+      "trial": "mixed-peak-ewma-seed1",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 10,
+      "sampled_max_active": 30,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3073,
+        3012,
+        3015
+      ]
+    },
+    {
+      "trial": "mixed-peak-ewma-seed2",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 12,
+      "sampled_max_active": 32,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3020,
+        3086,
+        2994
+      ]
+    },
+    {
+      "trial": "mixed-peak-ewma-seed3",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 10,
+      "sampled_max_active": 25,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        2923,
+        3116,
+        3061
+      ]
+    },
+    {
+      "trial": "mixed-round-robin-seed1",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 24,
+      "sampled_max_active": 44,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3034,
+        3033,
+        3033
+      ]
+    },
+    {
+      "trial": "mixed-round-robin-seed2",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 31,
+      "sampled_max_active": 60,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3038,
+        3038,
+        3024
+      ]
+    },
+    {
+      "trial": "mixed-round-robin-seed3",
+      "offered": 8400,
+      "warmup_offered": 700,
+      "outcomes": {
+        "success": 8400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": [],
+      "sampled_max_outstanding": 32,
+      "sampled_max_active": 52,
+      "sampled_health_transitions": 0,
+      "backend_selections": [
+        3046,
+        3029,
+        3025
+      ]
+    }
+  ]
+}

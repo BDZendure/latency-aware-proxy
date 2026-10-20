@@ -1,0 +1,42 @@
+{
+  "backend0": {
+    "exit_code": 0,
+    "finished_at": "2026-10-20T04:04:17.394852506Z",
+    "observed_cpu_seconds": 0.860968,
+    "oom_killed": false,
+    "sampled_peak_memory_bytes": 11153408,
+    "started_at": "2026-10-20T04:04:00.165172221Z"
+  },
+  "backend1": {
+    "exit_code": 0,
+    "finished_at": "2026-10-20T04:04:17.121982381Z",
+    "observed_cpu_seconds": 0.873079,
+    "oom_killed": false,
+    "sampled_peak_memory_bytes": 11010048,
+    "started_at": "2026-10-20T04:04:00.285926012Z"
+  },
+  "backend2": {
+    "exit_code": 0,
+    "finished_at": "2026-10-20T04:04:16.836161881Z",
+    "observed_cpu_seconds": 0.872041,
+    "oom_killed": false,
+    "sampled_peak_memory_bytes": 11280384,
+    "started_at": "2026-10-20T04:04:00.415651554Z"
+  },
+  "generator": {
+    "exit_code": 0,
+    "finished_at": "2026-10-20T04:04:16.213529631Z",
+    "observed_cpu_seconds": 2.173834,
+    "oom_killed": false,
+    "sampled_peak_memory_bytes": 15958016,
+    "started_at": "2026-10-20T04:04:00.698718138Z"
+  },
+  "proxy": {
+    "exit_code": 0,
+    "finished_at": "2026-10-20T04:04:16.441297672Z",
+    "observed_cpu_seconds": 3.001655,
+    "oom_killed": false,
+    "sampled_peak_memory_bytes": 29339648,
+    "started_at": "2026-10-20T04:04:00.566309763Z"
+  }
+}

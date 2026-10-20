@@ -1,0 +1,75 @@
+{
+  "matrices": [
+    {
+      "directory": "2026-10-20-docker",
+      "trials": 45,
+      "offered_measurement": 388800,
+      "offered_warmup": 26100,
+      "outcomes": {
+        "success": 349443,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 15,
+        "proxy_rejection": 38775,
+        "generator_miss": 567
+      },
+      "sample_errors": 1
+    },
+    {
+      "directory": "2026-10-20-docker-low",
+      "trials": 30,
+      "offered_measurement": 86400,
+      "offered_warmup": 8700,
+      "outcomes": {
+        "success": 86400,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": 0
+    },
+    {
+      "directory": "2026-10-20-docker-mixed-high",
+      "trials": 9,
+      "offered_measurement": 75600,
+      "offered_warmup": 6300,
+      "outcomes": {
+        "success": 75600,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 0,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": 0
+    },
+    {
+      "directory": "2026-10-20-docker-slowdown-replication",
+      "trials": 9,
+      "offered_measurement": 75600,
+      "offered_warmup": 6300,
+      "outcomes": {
+        "success": 75592,
+        "http_error": 0,
+        "transport_error": 0,
+        "client_timeout": 0,
+        "proxy_timeout": 8,
+        "proxy_rejection": 0,
+        "generator_miss": 0
+      },
+      "sample_errors": 0
+    }
+  ],
+  "verification": {
+    "macos": "verification/macos-check.txt",
+    "linux": "verification/linux-race.txt"
+  },
+  "trial_count": 93,
+  "offered_measurement": 626400,
+  "offered_warmup": 47400
+}

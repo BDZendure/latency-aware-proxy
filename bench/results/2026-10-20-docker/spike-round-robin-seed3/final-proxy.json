@@ -1,0 +1,42 @@
+{
+  "active": 0,
+  "backends": [
+    {
+      "address": "http://backend0:9001",
+      "canceled": 0,
+      "completed": 3106,
+      "estimate_ns": 52201085.375155926,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 3106
+    },
+    {
+      "address": "http://backend1:9001",
+      "canceled": 0,
+      "completed": 3103,
+      "estimate_ns": 51326005.92263163,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 3103
+    },
+    {
+      "address": "http://backend2:9001",
+      "canceled": 0,
+      "completed": 3105,
+      "estimate_ns": 51663796.91723185,
+      "failures": 0,
+      "healthy": true,
+      "outstanding": 0,
+      "selected": 3105
+    }
+  ],
+  "counters": {
+    "http_error": 4286,
+    "received": 13600,
+    "rejected_capacity": 4286,
+    "success": 9314
+  },
+  "policy": "round-robin"
+}

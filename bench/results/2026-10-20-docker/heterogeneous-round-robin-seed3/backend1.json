@@ -1,0 +1,10 @@
+{
+  "capacity": 4,
+  "heavy_multiplier": 10,
+  "jitter_ms": 1,
+  "mode": "sleep",
+  "queue": 64,
+  "response_bytes": 128,
+  "seed": 3,
+  "service_ms": 12
+}

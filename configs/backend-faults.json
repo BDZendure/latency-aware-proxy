@@ -1,0 +1,11 @@
+{
+  "service_ms": 8,
+  "capacity": 4,
+  "queue": 64,
+  "response_bytes": 128,
+  "health_follows_fault": true,
+  "phases": [
+    {"start_seconds": 5, "end_seconds": 10, "status": 503},
+    {"start_seconds": 15, "end_seconds": 20, "drop": true}
+  ]
+}
